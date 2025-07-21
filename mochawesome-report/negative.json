@@ -1,0 +1,198 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 1,
+    "pending": 0,
+    "failures": 4,
+    "start": "2025-07-21T00:25:50.092Z",
+    "end": "2025-07-21T00:25:51.729Z",
+    "duration": 1637,
+    "testsRegistered": 5,
+    "passPercent": 20,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "28a16e30-9286-48ae-9a63-68a6e00dd312",
+      "title": "",
+      "fullFile": "C:\\Users\\Dave\\Desktop\\Dave\\DESARROLLO\\prueba\\tests\\negative.spec.js",
+      "file": "\\tests\\negative.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+          "title": "API FakeStore Automation – Negativos y Borde",
+          "fullFile": "C:\\Users\\Dave\\Desktop\\Dave\\DESARROLLO\\prueba\\tests\\negative.spec.js",
+          "file": "\\tests\\negative.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "POST /products → payload incompleto (falta price) → 4xx",
+              "fullTitle": "API FakeStore Automation – Negativos y Borde POST /products → payload incompleto (falta price) → 4xx",
+              "timedOut": false,
+              "duration": 743,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const bad = { title: 'Sin precio', description: 'Incompleto', image: 'url', category: 'test' };\nconst { status, data } = await api.createCustom(bad);\nexpect(status).to.be.within(400, 499);\nexpect(data).to.have.property('error');",
+              "err": {
+                "message": "AssertionError: expected 200 to be within 400..499",
+                "estack": "AssertionError: expected 200 to be within 400..499\n    at Context.<anonymous> (file:///C:/Users/Dave/Desktop/Dave/DESARROLLO/prueba/tests/negative.spec.js:9:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                "diff": null
+              },
+              "uuid": "5295831b-5a3a-4b79-b450-04243d9f859a",
+              "parentUUID": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "POST /products → price malformado (string) → 4xx",
+              "fullTitle": "API FakeStore Automation – Negativos y Borde POST /products → price malformado (string) → 4xx",
+              "timedOut": false,
+              "duration": 220,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const bad = {\n  title: 'Precio texto', price: 'veinte',\n  description: 'Price es string', image: 'url', category: 'test'\n};\nconst { status, data } = await api.createCustom(bad);\nexpect(status).to.be.within(400, 499);\nexpect(data).to.have.property('error');",
+              "err": {
+                "message": "AssertionError: expected 200 to be within 400..499",
+                "estack": "AssertionError: expected 200 to be within 400..499\n    at Context.<anonymous> (file:///C:/Users/Dave/Desktop/Dave/DESARROLLO/prueba/tests/negative.spec.js:19:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                "diff": null
+              },
+              "uuid": "37cb61d4-3aaa-4120-a436-051282dfe866",
+              "parentUUID": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "POST /products → campo extra no esperado → 200 + ignora extra",
+              "fullTitle": "API FakeStore Automation – Negativos y Borde POST /products → campo extra no esperado → 200 + ignora extra",
+              "timedOut": false,
+              "duration": 219,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const extra = {\n  title: 'Con extra', price: 9.99, description: 'Test',\n  image: 'url', category: 'test', foo: 'bar'\n};\nconst { status, data } = await api.createCustom(extra);\nexpect(status).to.equal(200);\nexpect(data).to.not.have.property('foo');",
+              "err": {},
+              "uuid": "5c5b2797-5ec1-45c2-9a43-c1f4e4c244e9",
+              "parentUUID": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PUT /products/1 → payload incompleto → 4xx",
+              "fullTitle": "API FakeStore Automation – Negativos y Borde PUT /products/1 → payload incompleto → 4xx",
+              "timedOut": false,
+              "duration": 225,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const bad = { price: 19.99 }; // faltan campos\nconst { status, data } = await api.updateCustom(1, bad);\nexpect(status).to.be.within(400, 499);\nexpect(data).to.have.property('error');",
+              "err": {
+                "message": "AssertionError: expected 200 to be within 400..499",
+                "estack": "AssertionError: expected 200 to be within 400..499\n    at Context.<anonymous> (file:///C:/Users/Dave/Desktop/Dave/DESARROLLO/prueba/tests/negative.spec.js:36:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                "diff": null
+              },
+              "uuid": "cd1435b8-3f9b-4852-a868-ab9d21b8f651",
+              "parentUUID": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PUT /products/1 → category malformado (número) → 4xx",
+              "fullTitle": "API FakeStore Automation – Negativos y Borde PUT /products/1 → category malformado (número) → 4xx",
+              "timedOut": false,
+              "duration": 221,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const bad = {\n  title: 'Test', price: 19.99,\n  description: 'Bad category', image: 'url', category: 123\n};\nconst { status, data } = await api.updateCustom(1, bad);\nexpect(status).to.be.within(400, 499);\nexpect(data).to.have.property('error');",
+              "err": {
+                "message": "AssertionError: expected 200 to be within 400..499",
+                "estack": "AssertionError: expected 200 to be within 400..499\n    at Context.<anonymous> (file:///C:/Users/Dave/Desktop/Dave/DESARROLLO/prueba/tests/negative.spec.js:46:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                "diff": null
+              },
+              "uuid": "6e731a68-d724-4c89-bad9-c757812c3eef",
+              "parentUUID": "bf71cef1-a0d7-4b60-8d5e-33156d209e74",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5c5b2797-5ec1-45c2-9a43-c1f4e4c244e9"
+          ],
+          "failures": [
+            "5295831b-5a3a-4b79-b450-04243d9f859a",
+            "37cb61d4-3aaa-4120-a436-051282dfe866",
+            "cd1435b8-3f9b-4852-a868-ab9d21b8f651",
+            "6e731a68-d724-4c89-bad9-c757812c3eef"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1628,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "negative",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "reportFilename": "negative",
+        "overwrite": "true",
+        "quiet": "true"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

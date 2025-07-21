@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Audífonos Bluetooth QA - Actualizado",
+    "price": 32.99,
+    "description": "Versión actualizada con mayor duración de batería.",
+    "image": "https://example.com/images/headphones_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Camiseta Deportiva QA - Nueva Edición",
+    "price": 21.99,
+    "description": "Edición mejorada con tecnología anti-olor.",
+    "image": "https://example.com/images/shirt_new.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Libro de Pruebas QA - 2da Edición",
+    "price": 17.0,
+    "description": "Ahora incluye pruebas móviles y CI/CD.",
+    "image": "https://example.com/images/book_new.jpg",
+    "category": "books"
+  },
+  {
+    "title": "Smartwatch QA - 2025",
+    "price": 95.99,
+    "description": "Actualización con detección de caídas y ECG.",
+    "image": "https://example.com/images/smartwatch_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Mochila Escolar QA Pro",
+    "price": 39.0,
+    "description": "Con compartimento acolchado para laptop.",
+    "image": "https://example.com/images/backpack_new.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Zapatos Deportivos QA Max",
+    "price": 62.99,
+    "description": "Mayor amortiguación y soporte para arco.",
+    "image": "https://example.com/images/shoes_new.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Lámpara LED QA v2",
+    "price": 17.25,
+    "description": "Incluye sensor de movimiento.",
+    "image": "https://example.com/images/lamp_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Bolso de Mano QA - Edición Especial",
+    "price": 49.9,
+    "description": "Incluye bolsillo oculto con cierre magnético.",
+    "image": "https://example.com/images/bag_new.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Teclado Mecánico QA RGB",
+    "price": 68.5,
+    "description": "Con retroiluminación RGB personalizable.",
+    "image": "https://example.com/images/keyboard_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Perfume Floral QA Intenso",
+    "price": 29.99,
+    "description": "Nueva fragancia con notas orientales y cítricas.",
+    "image": "https://example.com/images/perfume_new.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Monitor 24\" QA Pro",
+    "price": 139.0,
+    "description": "Con puertos USB-C y soporte ajustable.",
+    "image": "https://example.com/images/monitor_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Pantalón Casual QA Stretch",
+    "price": 42.95,
+    "description": "Ahora con tela más flexible y cómoda.",
+    "image": "https://example.com/images/pants_new.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Base de Carga Inalámbrica QA Fast",
+    "price": 24.99,
+    "description": "Soporte vertical con carga rápida de 15W.",
+    "image": "https://example.com/images/charger_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Chaqueta Impermeable QA Pro",
+    "price": 63.49,
+    "description": "Material mejorado con ventilación posterior.",
+    "image": "https://example.com/images/jacket_new.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Collar de Plata QA Luxe",
+    "price": 28.0,
+    "description": "Nuevo diseño con detalles en circonita cúbica.",
+    "image": "https://example.com/images/necklace_new.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Tablet Android QA X",
+    "price": 219.99,
+    "description": "Mejor rendimiento y batería de 8000mAh.",
+    "image": "https://example.com/images/tablet_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Billetera de Cuero QA Deluxe",
+    "price": 20.49,
+    "description": "Incluye RFID blocker para mayor seguridad.",
+    "image": "https://example.com/images/wallet_new.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Aretes de Perlas QA Elegance",
+    "price": 13.0,
+    "description": "Presentación con caja premium.",
+    "image": "https://example.com/images/earrings_new.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Router WiFi QA Pro 6",
+    "price": 49.0,
+    "description": "Compatible con WiFi 6 y 5GHz simultáneo.",
+    "image": "https://example.com/images/router_new.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Cinturón Clásico QA Premium",
+    "price": 16.99,
+    "description": "Hebilla de acero inoxidable pulido.",
+    "image": "https://example.com/images/belt_new.jpg",
+    "category": "men's clothing"
+  }
+]

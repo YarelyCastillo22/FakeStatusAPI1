@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Audífonos Bluetooth QA",
+    "price": 29.99,
+    "description": "Audífonos inalámbricos con cancelación de ruido.",
+    "image": "https://example.com/images/headphones.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Camiseta Deportiva QA",
+    "price": 19.99,
+    "description": "Camiseta de secado rápido para entrenamiento.",
+    "image": "https://example.com/images/shirt.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Libro de Pruebas QA",
+    "price": 14.5,
+    "description": "Manual esencial para automatización de pruebas.",
+    "image": "https://example.com/images/book.jpg",
+    "category": "books"
+  },
+  {
+    "title": "Smartwatch QA",
+    "price": 89.99,
+    "description": "Reloj inteligente con monitoreo de salud.",
+    "image": "https://example.com/images/smartwatch.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Mochila Escolar QA",
+    "price": 34.0,
+    "description": "Mochila ergonómica resistente al agua.",
+    "image": "https://example.com/images/backpack.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Zapatos Deportivos QA",
+    "price": 59.99,
+    "description": "Calzado para running y entrenamiento de alto rendimiento.",
+    "image": "https://example.com/images/shoes.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Lámpara LED QA",
+    "price": 15.75,
+    "description": "Lámpara de escritorio con luz blanca regulable.",
+    "image": "https://example.com/images/lamp.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Bolso de Mano QA",
+    "price": 44.9,
+    "description": "Bolso elegante para uso diario.",
+    "image": "https://example.com/images/bag.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Teclado Mecánico QA",
+    "price": 64.5,
+    "description": "Teclado retroiluminado con switches azules.",
+    "image": "https://example.com/images/keyboard.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Perfume Floral QA",
+    "price": 27.99,
+    "description": "Fragancia suave con notas de jazmín y vainilla.",
+    "image": "https://example.com/images/perfume.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Monitor 24\" QA",
+    "price": 129.0,
+    "description": "Pantalla Full HD con panel IPS.",
+    "image": "https://example.com/images/monitor.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Pantalón Casual QA",
+    "price": 39.95,
+    "description": "Pantalón con corte slim fit para oficina o uso diario.",
+    "image": "https://example.com/images/pants.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Base de Carga Inalámbrica QA",
+    "price": 22.99,
+    "description": "Cargador rápido compatible con Qi.",
+    "image": "https://example.com/images/charger.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Chaqueta Impermeable QA",
+    "price": 58.49,
+    "description": "Chaqueta a prueba de agua y viento para clima extremo.",
+    "image": "https://example.com/images/jacket.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Collar de Plata QA",
+    "price": 25.0,
+    "description": "Accesorio elegante para eventos formales.",
+    "image": "https://example.com/images/necklace.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Tablet Android QA",
+    "price": 199.99,
+    "description": "Tablet con 64GB de almacenamiento y pantalla HD.",
+    "image": "https://example.com/images/tablet.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Billetera de Cuero QA",
+    "price": 18.49,
+    "description": "Billetera resistente con múltiples compartimientos.",
+    "image": "https://example.com/images/wallet.jpg",
+    "category": "men's clothing"
+  },
+  {
+    "title": "Aretes de Perlas QA",
+    "price": 12.0,
+    "description": "Aretes pequeños con perla cultivada.",
+    "image": "https://example.com/images/earrings.jpg",
+    "category": "women's clothing"
+  },
+  {
+    "title": "Router WiFi QA",
+    "price": 45.0,
+    "description": "Router doble banda con excelente alcance.",
+    "image": "https://example.com/images/router.jpg",
+    "category": "electronics"
+  },
+  {
+    "title": "Cinturón Clásico QA",
+    "price": 13.99,
+    "description": "Cinturón ajustable de cuero sintético.",
+    "image": "https://example.com/images/belt.jpg",
+    "category": "men's clothing"
+  }
+]

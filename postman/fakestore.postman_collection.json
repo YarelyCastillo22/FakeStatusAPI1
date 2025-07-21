@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "10e212bf-3d51-48f6-9fba-7e7b38252084",
+		"name": "Prueba Fake Store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27255795"
+	},
+	"item": [
+		{
+			"name": "All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "One Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": -49555489,\r\n  \"title\": \"commodo cupidatat in\",\r\n  \"price\": 34131848.71034476,\r\n  \"description\": \"aliqua\",\r\n  \"category\": \"ipsum\",\r\n  \"image\": \"https://mYYjrwUlEnwnwGIHvchHnbk.azsefdLaZvcST6dFwZ0spapkRBEb1e+,qcxCUh+Wv6+lL-WqmEMJj.ziA1lOwnYw0tf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 21,\r\n  \"title\": \"commodo cupidatat in\",\r\n  \"price\": 34131848.71034476,\r\n  \"description\": \"aliqua\",\r\n  \"category\": \"ipsum\",\r\n  \"image\": \"https://mYYjrwUlEnwnwGIHvchHnbk.azsefdLaZvcST6dFwZ0spapkRBEb1e+,qcxCUh+Wv6+lL-WqmEMJj.ziA1lOwnYw0tf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Parallel petitions",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/parallel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"parallel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bulk Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/bulk-load",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"bulk-load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Bulk",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/bulk-update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"bulk-update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
